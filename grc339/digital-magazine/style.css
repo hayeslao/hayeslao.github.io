@@ -1,0 +1,121 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+div.container {
+    margin: auto;
+    max-width: 40em;
+}
+
+h1 {
+    margin: 1em 0.5em;
+    max-width: 5em;
+}
+
+h2 {
+    margin: 0.2em 0.2em 0;
+    font-family: serif;
+    font-weight: bold;
+    color: rgb(90, 120, 150);
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+section a {
+    color: rgb(20, 20, 20);
+}
+
+section.main h2, article h2 {
+    font-size: 3em;
+}
+
+section.secondary h2 {
+    margin: 0.3em 0.3em 0;
+    font-size: 2em;
+}
+
+section.tertiary {
+    border-top: solid;
+    border-width: 1px;
+    border-color: rgb(90, 120, 150);
+}
+
+section.tertiary h2 {
+    margin: 0.5em 0.5em 0;
+    font-size: 1em;
+}
+
+p {
+    margin-left: 0.5em;
+    font-family: sans-serif;
+    line-height: 1.2em;
+}
+
+nav {
+    margin: 1em 0.5em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0.2em 0;
+}
+
+nav ul li a {
+    color: rgb(90, 120, 150);
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    padding: 0.5em 0.1em;
+    color: rgb(235, 235, 235);
+    background-color: rgb(90, 120, 150);
+}
+
+article p {
+    margin: 0.5em 0.5em 1em;
+}
+
+figcaption {
+    font-family: sans-serif;
+    font-style: italic;
+    color: rgb(80, 80, 80);
+    margin: 0.5em 0.5em 1em;
+    line-height: 1.2em;
+}
+
+aside {
+    padding: 1em 0.5em;
+    background-color: rgb(200, 205, 250);
+}
+
+aside section.secondary h2 {
+    font-size: 1em;
+    margin-left: 0.5em;
+}
+
+@media screen and (min-width:40em) {
+
+    h1, h2, section.secondary h2, section.tertiary h2, aside section.secondary h2, p, article p, nav, figcaption {
+        margin-left: 0;
+    }
+
+    nav ul li {
+        display: inline;
+        padding-right: 1em;
+    }
+}
